@@ -11,8 +11,9 @@ namespace DemoApp2.Entities
     public class Student
     {
         /// <summary>
-        /// Required field Id of the Student 
+        /// Primary key for the Student 
         /// </summary>
+        [Key]
         [Required]
         public Guid Id { get; set; }
 
